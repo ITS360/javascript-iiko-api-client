@@ -1,1 +1,3 @@
-# iiko-api-client
+# IIKO API Client
+
+Documentation comming soon
