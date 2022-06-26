@@ -14,8 +14,8 @@ class IikoClient {
 
     /**
      *
-     * @param address {String}
-     * @param login {String}
+     * @param address {String} required address
+     * @param login {String} required login
      */
 
     constructor(address, login) {
@@ -42,6 +42,16 @@ class IikoClient {
             throw Error(err);
         }
     }
+
+    /**
+     *
+     * @param method {String} required http request method iiko API tells you to use for given endpoint
+     * @param endpoint {String} required endpoint which you are trying to reach (those can be found in iiko API documentation)
+     * @param query {String} optional query string
+     * @param options {Object} optional options (request body)
+     * @param retry {Boolean} optional property used internally to retry request if token Bearer token expired.
+     * @returns {Promise<*>}
+     */
 
     async request(method, endpoint, query = "", options, retry = true){
         try{
