@@ -9,7 +9,7 @@
   "dependencies": {
     "axios": "^0.27.2"
   },
-  "description": "Documentation comming soon",
+  "description": "Primitive javascript iiko API client library",
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
@@ -17,14 +17,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ITS360/iiko-api-client.git"
+    "url": "git+https://github.com/ITS360/javascript-iiko-api-client.git"
   },
   "keywords": [
     "iiko"
   ],
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ITS360/iiko-api-client/issues"
+    "url": "https://github.com/ITS360/javascript-iiko-api-client/issues"
   },
-  "homepage": "https://github.com/ITS360/iiko-api-client#readme"
+  "homepage": "https://github.com/ITS360/javascript-iiko-api-client#readme"
 }
