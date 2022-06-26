@@ -1,3 +1,3 @@
 # IIKO API Client
 
-Documentation comming soon
+Documentation coming soon
