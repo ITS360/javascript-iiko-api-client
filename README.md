@@ -52,7 +52,7 @@ For more information where to get method, endpoint, query and options parameters
 https://en.iiko.help/articles/#!api/getting-started-api
     
 
-### Usage
+### Example of usage
 
 ```
 const IikoClient = require("./index");
