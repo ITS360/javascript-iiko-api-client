@@ -4,7 +4,7 @@
 
 ### Installation
 
-`npm install -s iiko-api-client`
+`npm install -s javascript-iiko-api-client`
 
 ### Constructor
 
