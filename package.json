@@ -1,0 +1,8 @@
+{
+  "name": "iiko-api-client",
+  "version": "1.0.0",
+  "author": "ITS360",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}

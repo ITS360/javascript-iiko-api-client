@@ -1,0 +1,4 @@
+/node_modules/
+/.idea/
+/iiko-api-client.iml
+/package-lock.json
