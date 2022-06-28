@@ -62,7 +62,6 @@ demo();
 async function demo(){
     let iikoClient = new IikoClient("https://api-ru.iiko.services/", "874af36d");
     try{
-        await iikoClient.connect();
         let result = await iikoClient.request("get", "organizations");
         console.log(result);
     }catch (err){

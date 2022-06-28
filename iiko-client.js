@@ -54,6 +54,15 @@ class IikoClient {
      */
 
     async request(method, endpoint, query = "", options, retry = true){
+        if(!this.#_client){
+            try{
+                await this.connect();
+                let result = await this.request(method, endpoint, query = "", options, retry = false);
+                return result;
+            }catch (err){
+                throw Error(err);
+            }
+        }
         try{
             let result = await this.#_client[method](`${endpoint}?${query}`, options);
             return result.data;
